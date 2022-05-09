@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px auto;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  padding: 30px;
+  min-width: 300px;
+  width: 50vw;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  h2 {
+    color: rgb(71, 33, 160);
+    text-align: center;
+  }
+
+  mat-form-field {
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .passwordGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+}

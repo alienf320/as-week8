@@ -1,0 +1,39 @@
+.mat-toolbar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-menu-item {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: rgba(199, 195, 189, 0.5);
+}
+
+.mat-menu-item:hover {
+  background-color: rgba(235, 170, 49, 0.664);
+}
+
+.mini-title {
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.info-user {
+  margin: 10px;
+  div {
+    font-size: 0.9rem;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .info{
+    font-weight: 100;
+    background-color: rgba(211, 211, 211, 0.377);
+    padding: 5px;
+    margin-left: 10px;
+  } 
+}

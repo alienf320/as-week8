@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-icon> traffic</mat-icon>
+  <span>AppRoutes</span>
+  <span class="example-spacer"></span>
+  <button 
+    mat-mini-fab
+    class="example-icon favorite-icon" 
+    color="accent"
+    [matMenuTriggerFor]="menu"
+    *ngIf="auth.loggedIn$ | async">
+    <mat-icon>person</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="logOut()">Log Out</button>
+    <div class="mini-title">User Info</div>
+    <div class="info-user">
+        <div>id:</div>
+        <div class="info">{{ user.id }}</div>
+        <div>username:</div>
+        <div class="info">{{ user.name }}</div>
+        <div>email:</div>
+        <div class="info">{{ user.email }}</div>
+    </div>
+    
+  </mat-menu>
+</mat-toolbar>
+
